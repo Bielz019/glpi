@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.container {
+    text-align: center;
+}
+.option-btn {
+    background-color: #0b71e6;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+.option-btn:hover {
+    background-color: #45a049;
+}
+img {
+    display: flex;
+}

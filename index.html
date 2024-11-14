@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sistema de Chamados</title>
+    <link rel="shortcut icon" href="./img/glpi.img.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0aaafa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+        }
+        .option-btn {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 15px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+        }
+        .option-btn:hover {
+            background-color: #45a049;
+        }
+        header img{
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./img/glpi.img.png" alt="logo glpi">
+    </header>
+    <div class="container">
+        <h2>Bem-vindo ao Sistema de Chamados</h2>
+        <button class="option-btn" onclick="window.location.href='abertura_chamado.html'">Abertura de Chamado</button>
+        <button class="option-btn" onclick="window.location.href='historico_solicitacoes.html'">Histórico de Solicitações</button>
+    </div>
+</body>
+</html>
